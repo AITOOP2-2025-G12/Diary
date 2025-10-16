@@ -1,7 +1,10 @@
 from diaries.DiarySample import DiarySample
+
 from diaries.SotaDiary import SotaDiary
+from diaries.onogiDiary import onogiDiary
+
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), SotaDiary()] 
+diaries = [DiarySample(), SotaDiary(), onogiDiary(),] 
 
 for d in diaries:
     print("---------------------------------")
