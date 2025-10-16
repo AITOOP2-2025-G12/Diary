@@ -1,12 +1,12 @@
 from diaries.DiarySample import DiarySample
-
-from diaries.MaemuraD import MaemuraD
 from diaries.SotaDiary import SotaDiary
+from diaries.onogiDiary import onogiDiary
+from diaries.MaemuraD import MaemuraD
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(),
-           MaemuraD(),
-          SotaDiary()] 
+diaries = [DiarySample(), SotaDiary(), onogiDiary(),MaemuraD(),] 
+
+
 
 for d in diaries:
     print("---------------------------------")
